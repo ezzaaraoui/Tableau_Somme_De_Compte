@@ -1,0 +1,16 @@
+algorithme tableau_somme_compte
+
+variable
+	tableau T(20):entier
+	i,s:entier
+
+Debut
+	s<--0
+	T(0)<--1000
+	pour i <-- 0 a 19 faire 
+		s<--s+T(i)+T(i)*0.02	
+		ecrire("anniversaire ",i+1," de mohamed la somme est ",s)
+		T(i+1)<--s
+	fin pour
+
+fin
